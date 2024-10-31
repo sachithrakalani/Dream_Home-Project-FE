@@ -28,6 +28,12 @@ export default function HomePage(){
                 <option value="Kandy">Kandy</option>
                 <option value="Galle">Galle</option>
             </select>
+            <button >
+                <i className="fas fa-search-plus"></i> 
+            </button>
+            <button>
+                <i className="fas fa-search"></i>  Search
+            </button>
         </div>
     )
 }
