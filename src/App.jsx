@@ -1,4 +1,5 @@
 import HomePage from "./Components/HomePage"
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
