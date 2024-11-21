@@ -25,15 +25,13 @@ export default function HomePage() {
       </select>
       <select>
         <option value="">All Status: </option>
-        <option value="Colombo">Colombo</option>
-        <option value="Kandy">Kandy</option>
-        <option value="Galle">Galle</option>
+        <option value="Colombo">For Sale</option>
+        <option value="Kandy">For Rent</option>
       </select>
       <select>
         <option value="">All Types: </option>
-        <option value="Colombo">Colombo</option>
-        <option value="Kandy">Kandy</option>
-        <option value="Galle">Galle</option>
+        <option value="Colombo">Single Family</option>
+        <option value="Kandy">Villa</option>
       </select>
       <button>
         <i className="fas fa-search-plus"></i>
