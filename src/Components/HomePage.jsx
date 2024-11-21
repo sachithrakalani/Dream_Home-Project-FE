@@ -1,9 +1,14 @@
 import DreamHomeImage from "/Users/sachithrakalani/Workspace/React/Dream-Home-Project/dreamHomeReactProject/src/accets/images/DreamHomeImage.jpeg";
+import styles from "./homepage.module.css"
+
 
 export default function HomePage(){
     return(
         <div>
+            <div className={styles.title}>
             <h1>Find Your Dream Home</h1>
+            </div>
+            
             <h1>Real Estate</h1>
             <button>Home</button>
             <button>Add Property</button>
