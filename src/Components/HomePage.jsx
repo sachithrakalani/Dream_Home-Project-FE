@@ -17,14 +17,14 @@ export default function HomePage() {
             <button>Add Property</button>
           </div>
         </div>
-        <div>
+        <div className={bodystyles.imgContainer}>
           <img
             src={DreamHomeImage}
             alt="Dream Home"
             width="100%"
             height="450"
           />
-          <div>
+          <div className={bodystyles.centered}>
             <h1>Looking to Buy or Rent a Property?</h1>
             <h1>Find Your Dream Home</h1>
             <select>
